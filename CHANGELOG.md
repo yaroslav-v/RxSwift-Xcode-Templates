@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 --
 
+## [0.3.1](https://github.com/pixeldock/RxSwift-Xcode-Templates/releases/tag/v0.3.1)
+_Released on 2016-12-03._
+
+### Updated
+* formatting, marks. etc.
+* place of call of ViewModel's init method setupRx()
+
 ## [0.3.0](https://github.com/pixeldock/RxSwift-Xcode-Templates/releases/tag/v0.3.0)
 _Released on 2016-09-04._
 
