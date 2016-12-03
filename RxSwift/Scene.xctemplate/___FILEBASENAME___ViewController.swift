@@ -11,11 +11,14 @@ import RxSwift
 import RxCocoa
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+
     private let viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel
     private let router: ___FILEBASENAMEASIDENTIFIER___Router
     private let disposeBag = DisposeBag()
     
-    init(withViewModel viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel, router: ___FILEBASENAMEASIDENTIFIER___Router) {
+    // views
+    
+    init(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel, router: ___FILEBASENAMEASIDENTIFIER___Router) {
         self.viewModel = viewModel
         self.router = router
         super.init(nibName: nil, bundle: nil)
@@ -33,7 +36,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
         setupRx()
     }
     
-    //MARK: Setup
+    // MARK: Setup
     
     func setupViews() {
         
@@ -44,6 +47,8 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     }
     
     func setupRx() {
-    
+    	viewModel.setupRx()
     }
+    
+    // MARK: Views
 }

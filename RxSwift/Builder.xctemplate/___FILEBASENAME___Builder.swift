@@ -13,7 +13,7 @@ struct ___FILEBASENAMEASIDENTIFIER___Builder {
     static func viewController() -> UIViewController {
         let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
         let router = ___FILEBASENAMEASIDENTIFIER___Router()
-        let viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(withViewModel: viewModel, router: router)
+        let viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(viewModel: viewModel, router: router)
         router.viewController = viewController
         
         return viewController

@@ -9,18 +9,16 @@
 import RxSwift
 
 class ___FILEBASENAMEASIDENTIFIER___ViewModel {
-    
+
     // input
     
     // output
     
-    // private
-    
     init() {
-        setupRx()
+        // initialize internal vars
     }
     
-    //MARK: Setup
+    // MARK: Setup
     
     func setupRx() {
         
