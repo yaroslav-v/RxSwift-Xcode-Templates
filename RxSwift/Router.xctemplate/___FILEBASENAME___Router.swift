@@ -8,9 +8,9 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Router {
+class ___VARIABLE_sceneName:identifier___Router {
 
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController?
+    weak var viewController: ___VARIABLE_sceneName:identifier___ViewController?
     
     func navigateToSomewhere() {
         

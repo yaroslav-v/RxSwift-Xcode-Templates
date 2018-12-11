@@ -10,15 +10,15 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+class ___VARIABLE_sceneName:identifier___ViewController: UIViewController {
 
-    private let viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel
-    private let router: ___FILEBASENAMEASIDENTIFIER___Router
+    private let viewModel: ___VARIABLE_sceneName:identifier___ViewModel
+    private let router: ___VARIABLE_sceneName:identifier___Router
     private let disposeBag = DisposeBag()
     
     // views
     
-    init(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel, router: ___FILEBASENAMEASIDENTIFIER___Router) {
+    init(viewModel: ___VARIABLE_sceneName:identifier___ViewModel, router: ___VARIABLE_sceneName:identifier___Router) {
         self.viewModel = viewModel
         self.router = router
         super.init(nibName: nil, bundle: nil)

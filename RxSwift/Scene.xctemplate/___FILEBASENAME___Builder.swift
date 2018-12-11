@@ -8,12 +8,12 @@
 
 import UIKit
 
-struct ___FILEBASENAMEASIDENTIFIER___Builder {
+struct ___VARIABLE_sceneName:identifier___Builder {
     
     static func viewController() -> UIViewController {
-        let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
-        let router = ___FILEBASENAMEASIDENTIFIER___Router()
-        let viewController = ___FILEBASENAMEASIDENTIFIER___ViewController(viewModel: viewModel, router: router)
+        let viewModel = ___VARIABLE_sceneName:identifier___ViewModel()
+        let router = ___VARIABLE_sceneName:identifier___Router()
+        let viewController = ___VARIABLE_sceneName:identifier___ViewController(viewModel: viewModel, router: router)
         router.viewController = viewController
         
         return viewController

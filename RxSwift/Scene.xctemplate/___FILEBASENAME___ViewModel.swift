@@ -8,7 +8,7 @@
 
 import RxSwift
 
-class ___FILEBASENAMEASIDENTIFIER___ViewModel {
+class ___VARIABLE_sceneName:identifier___ViewModel {
 
     // input
     
