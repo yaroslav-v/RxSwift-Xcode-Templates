@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 --
 
+## [0.3.2](https://github.com/pixeldock/RxSwift-Xcode-Templates/releases/tag/v0.3.1)
+_Released on 2018-12-11._
+
+### Fixed
+* Fixed variables in the template to support Xcode 10.1
+
 ## [0.3.1](https://github.com/pixeldock/RxSwift-Xcode-Templates/releases/tag/v0.3.1)
 _Released on 2016-12-03._
 
